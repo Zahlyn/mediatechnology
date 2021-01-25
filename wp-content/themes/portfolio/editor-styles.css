@@ -1,0 +1,27 @@
+p {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #6C60B4;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+ul {
+    font-family: 'Commissioner', sans-serif;
+}
+
+.is-style-top-intro {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}

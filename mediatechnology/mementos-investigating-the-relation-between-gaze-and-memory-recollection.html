@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>
+			Media Technology &#8211; Hanna Oberg Portfolio </title>
+		<link rel='dns-prefetch' href='//s.w.org' />
+		<link rel='stylesheet' id='custom-css-css' href='../wp-content/themes/portfolio/style.css' type='text/css' media='all' />
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<script src="https://kit.fontawesome.com/f2b2a9b79b.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400;600;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	
+	<div id="header" class="wrap">
+		<div class="container">
+			<div class="col col-4o12 col-md-4o12 logo">
+				<a href="../index.html">
+					<h1>Hanna &ouml;berg</h1>
+				</a>
+			</div>
+			<nav role="navigation" class="col col-8o12 col-md-8o12 nav-menu">
+				<div class="nav"><ul id="menu-header-menu" class="menu"><li id="menu-item-85" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-85"><a href="../index.html">Home</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="../resume.html">Resume</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../contact.html">Contact</a></li>
+</ul></div>			</nav>
+		</div>
+	</div>
+	<div id="body" class="wrap">
+
+<div class="container single-content single-content-intro">
+<a href="../index.html" class="link-big link-back"><i class="fas fa-long-arrow-alt-left"></i> Back to all projects</a>
+	<h1>Mementos</h1>
+	<div class="categories">	
+		<ul>
+			<li><a href="../subject/ai.html" rel="tag">AI</a></li><li><a href="../subject/research.html" rel="tag">Research</a></li>		</ul>
+	</div>
+			<p>In collaboration with <span class="disabled"><a href="../collaborator/max-peeperkorn.html" rel="tag">Max Peeperkorn</a></span>, <span class="disabled"><a href="../collaborator/shanique-roberts.html" rel="tag">Shanique Roberts</a></span>, <span class="disabled"><a href="../collaborator/yannick-nales.html" rel="tag">Yannick Nales</a></span></p>
+	</div>
+<div class="container single-content">
+	
+<p class="is-style-top-intro">Mind wandering is generally viewed as negative as it takes our focus away from the task at hand. Memory recollection due to stimuli is a natural mind wandering state as it takes focus from the external world and shifts it to the inner thoughts effectively shifting attention. The following research aims to investigate if there are any observable differences in gaze rest when memory recollecting as a form of mind wandering.</p>
+
+
+
+<p>Memory recollection is prevalent when processing semantically rich content. Thoughts pertaining to memory retrieval are increasingly more common while consuming dynamic visual content compared to other types of mind wandering. Eye movement and gaze in relation to mind wandering contains patterns that can be detected when mind wandering. This was the basis of our research.</p>
+
+
+
+<p>As a base for the study we used the dataset Mementos Corpus. It is <em>“A Multimodal Corpus of Cognitive-Affective Memory Processing in Response to Audiovisual Media Content”</em>  that consists of 2198 entries. For our research 791 entries were discarded due to clips being too little contrast/too dark for processing, reflection of glasses preventing us from registering the eyes or too low quality of the video itself.</p>
+
+
+
+<p>We used <a rel="noreferrer noopener" href="https://github.com/TadasBaltrusaitis/OpenFace" data-type="URL" data-id="https://github.com/TadasBaltrusaitis/OpenFace" target="_blank">OpenFace</a> to extract gaze angles and direction vectors from the eyes of the participants. To get whether the eyes were at rest in a given frame, we introduce two variables, the minimum number of frames for rest period before it counts valid period of rest. We looked at current and previous frames to determine if the change was outside of the resting margin. We used <a rel="noreferrer noopener" href="https://www.r-project.org.html" data-type="URL" data-id="https://www.r-project.org.html" target="_blank">R </a>to run a generalized linear mixed model to see if we could find any statistical significance among the results. Finally, we could not find any correlation. This does however not exclude the possibility as our results are directly effected by the quality of the dataset we used. </p>
+			<p><strong>This project was made for the course Social Signal Processing</strong></p>
+	</div>
+
+
+</div> <!-- wrap container -->
+<div class="container">
+	<div id="footer" class="col">
+		<div class="col logo">
+			<a href="../index.html">
+				<h1>Hanna &ouml;berg</h1>
+			</a>
+			<p>UI & UX Designer</p>
+		</div>
+		<div class="col">
+		<div class="nav-footer"><ul id="menu-footer-menu" class="menu">
+			<li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="../index.html">Home</a></li>
+			<li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="../resume.html">Resume</a></li>
+<li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="../contact.html">Contact</a></li>
+</ul></div>			</div>
+	</div>
+</div>
+</body>
+</html>
